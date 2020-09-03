@@ -1,13 +1,13 @@
 # EmojiLibrary
 Hello World!
 
-FiftyoneMoon provide you EmojiLibrary which have all latest ios emoji and inspired by [SuperNova-Emoji](https://github.com/hani-momanii/SuperNova-Emoji).
+FiftyoneMoon provide you EmojiLibrary which have all latest ios emoji and it's inspired by [SuperNova-Emoji](https://github.com/hani-momanii/SuperNova-Emoji).
 FiftyoneMoon says you can use this libaray in your project with full authority.
 
 Here some information about EmojiLibrary,
 
-[![minSdkVersion:] (16)]
-[![maxSdkVersion:] (30 (Latest))]
+[![minSdkVersion:] [16]]
+[![maxSdkVersion:] [30 (Latest)]]
 [![](https://jitpack.io/v/fiftyonemoon/EmojiLibrary.svg)](https://jitpack.io/#fiftyonemoon/EmojiLibrary)
 
 ## Implementation
@@ -35,7 +35,7 @@ implementation 'com.github.fiftyonemoon:EmojiLibrary:1.0'
 
 ### XML Usage
 ```groovy
-//EmojiTextView
+//EmojiTextView 
 
 <com.fiftyonemoon.emojilibrary.EmojiTextView
         android:id="@+id/tvSample"
@@ -107,3 +107,10 @@ Change Emoji and Keyboard button icon with drawable icon
 emojiActions.setDrawableIcon(R.drawable.ic_baseline_keyboard_24, R.drawable.ic_baseline_emoji_emotions_24);
 ```
 
+# Proguard
+
+No configuration needed.
+
+# License
+
+Licensed under the Apache License, Version 2.0
