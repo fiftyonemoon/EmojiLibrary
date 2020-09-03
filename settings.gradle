@@ -1,0 +1,3 @@
+include ':EmojiLibrary'
+include ':app'
+rootProject.name = "Emoji"
