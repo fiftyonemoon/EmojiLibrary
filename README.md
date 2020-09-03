@@ -6,16 +6,26 @@ FiftyoneMoon says you can use this libaray in your project with full authority.
 
 Here some information about EmojiLibrary,
 
-[![minSdkVersion: 16]]
-[![maxSdkVersion: 30 (Latest)]]
+[![minSdkVersion:] (16)]
+[![maxSdkVersion:] (30 (Latest))]
 [![](https://jitpack.io/v/fiftyonemoon/EmojiLibrary.svg)](https://jitpack.io/#fiftyonemoon/EmojiLibrary)
 
-# Implementation
+## Implementation
+
 ```groovy
-implementation 'com.github.fiftyonemoon:EmojiLibrary:Tag'
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 
-# SampleActivity
+```groovy
+implementation 'com.github.fiftyonemoon:EmojiLibrary:1.0'
+```
+
+## SampleActivity
 - [`SampleActivity`](app/src/main/java/com/fiftyonemoon/SampleActivity.java) This is sample activity of library. 
 
 <img src="./Images/ios_emoji.jpeg" alt="Normal Keyboard" width="270">
