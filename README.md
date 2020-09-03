@@ -6,8 +6,8 @@ FiftyoneMoon says you can use this libaray in your project with full authority.
 
 Here some information about EmojiLibrary,
 
-minSdkVersion: 16
-maxSdkVersion: 30 (Latest)
+minSdkVersion: 16,
+maxSdkVersion: 30 (Latest),
 [![](https://jitpack.io/v/fiftyonemoon/EmojiLibrary.svg)](https://jitpack.io/#fiftyonemoon/EmojiLibrary)
 
 ## Implementation
