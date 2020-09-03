@@ -66,14 +66,14 @@ implementation 'com.github.fiftyonemoon:EmojiLibrary:1.0'
 ### Initialize Emoji Action
 
 ```groovy
-//DEFAULT EMOJI BACKGROUND
+//Default emoji background
 EmojiActions emojiActions = new EmojiActions(Context c ,View view, EmojiEditText emojiEditText, ImageButton emojiButton);
 ```
 
 ### Change background color
 
 ```groovy
-//CHANGE EMOJI BACKGROUND
+//Change emoji background
 EmojiActions emojiActions = new EmojiActions(Context c,View view,EmojiEditText emojiEditText,ImageButton emojiButton,String iconPressedColor,String tabsColor,String backgroundColor);
 
 //Example
@@ -84,18 +84,19 @@ EmojiActions emojiActions = new EmojiActions(this,rootView,emojiEditText,emojiBu
 Set your Emoji keyboard on listener
 
 ```groovy
-implements EmojiActions.KeyboardListener //in your Activity
+//In your activity
+public class SampleActivity extends AppCompatActivity implements EmojiActions.KeyboardListener
 ```
 
 ```groovy
-//SET KEYBOARD LISTENER
+//Set keyboard listener
 emojiActions.setKeyboardListener(this);
 ```
 ### On EditText Click Open Soft Keyboard
 Simply transfer from Emoji Popup to Soft Keyboard 
 
 ```groovy
-//SET ON CLICK EDITTEXT OPEN SOFT KEYBOARD
+//Set on click edittext come back to soft keyboard
 emojiActions.setOnClickEditTextOpenSoftKeyboard(emojiEditText);
 ```
 
@@ -103,7 +104,7 @@ emojiActions.setOnClickEditTextOpenSoftKeyboard(emojiEditText);
 Change Emoji and Keyboard button icon with drawable icon
 
 ```groovy
-//YOU CAN CHANGE EMOJI ICON WITH DRAWABLE ICON  --->>> 1. FOR KEYBOARD 2. FOR EMOJI ICON
+//You can change emoji icon with drawbale  --->>> 1. FOR KEYBOARD 2. FOR EMOJI ICON
 emojiActions.setDrawableIcon(R.drawable.ic_baseline_keyboard_24, R.drawable.ic_baseline_emoji_emotions_24);
 ```
 
