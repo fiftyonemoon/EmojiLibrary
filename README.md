@@ -33,6 +33,36 @@ implementation 'com.github.fiftyonemoon:EmojiLibrary:1.0'
 
 ## Java Usage
 
+### XML Usage
+```groovy
+//EmojiTextView
+
+<com.fiftyonemoon.emojilibrary.EmojiTextView
+        android:id="@+id/tvSample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:textSize="15sp"
+        emoji:emojiconSize="28sp"
+        emoji:emojiconAlignment="bottom" />
+	
+//EmojiEditText
+
+<com.fiftyonemoon.emojilibrary.EmojiEditText
+        android:id="@+id/edSample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Type here..."
+        android:layout_toLeftOf="@+id/btnSend"
+        android:layout_toRightOf="@+id/btnEmoji"
+        android:inputType="text"
+        android:layout_toStartOf="@+id/btnSend"
+        android:layout_toEndOf="@+id/btnEmoji"
+	emoji:emojiconSize="28sp"/>
+	
+```
 ### Initialize Emoji Action
 
 ```groovy
@@ -54,7 +84,7 @@ EmojiActions emojiActions = new EmojiActions(this,rootView,emojiEditText,emojiBu
 Set your Emoji keyboard on listener
 
 ```groovy
-implements EmojiActions.KeyboardListener in your Activity
+implements EmojiActions.KeyboardListener //in your Activity
 ```
 
 ```groovy
