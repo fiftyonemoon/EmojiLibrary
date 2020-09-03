@@ -12,6 +12,8 @@ maxSdkVersion: 30 (Latest)
 # Sample
 <img src="./Images/ios_emoji.jpeg" alt="Normal Keyboard" width="270">
 
+- [`SampleActivity`](app/src/main/java/com/fiftyonemoon/SampleActivity.java)
+
 ## Java Usage
 
 ### Initialize Emoji Action
